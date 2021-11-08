@@ -1,0 +1,26 @@
+{
+  "name": "-goit-js-hw-13-image-finder",
+  "version": "1.0.0",
+  "description": "Домашнее задание № 13",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /-goit-js-hw-13-image-finder/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SvetlanaMerkurieva/-goit-js-hw-13-image-finder.git"
+  },
+  "author": "Svetlana Merkurieva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SvetlanaMerkurieva/-goit-js-hw-13-image-finder/issues"
+  },
+  "homepage": "https://github.com/SvetlanaMerkurieva/-goit-js-hw-13-image-finder#readme",
+  "devDependencies": {
+    "handlebars": "^4.7.7",
+    "handlebars-loader": "^1.7.1",
+    "parcel": "^2.0.0"
+  }
+}
